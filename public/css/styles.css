@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,500;1,700&display=swap');
 
 html {
     background-color: #E4E9FD;
     background-image: -webkit-linear-gradient(65deg, #2C3335 50%, #616C6F 50%);
     min-height: 100vh;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
     color: white;
     padding: 10px;
     font-size: 38px;
+    font-weight: 500;
 }
 
 .box {
@@ -86,9 +87,10 @@ input[type="text"]:focus {
     outline: none;
     box-shadow: inset 0 -3px 0 0 #2C3335;
 }
+
 input::placeholder {
-  color: #bbb;
-  font-style: italic;
+    color: #bbb;
+    font-family: 'Roboto Mono', monospace;
 }
 
 ::placeholder {
@@ -96,7 +98,16 @@ input::placeholder {
     opacity: 1;
 }
 
+footer a {
+    color: #bbb;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+}
+
 footer {
     color: #bbb;
     text-align: center;
+    font-weight: 100;
 }
